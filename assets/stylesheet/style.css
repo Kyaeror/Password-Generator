@@ -96,10 +96,9 @@ button[disabled] {
 .float-right {
   float: right;
 }
-.criteria{
-  justify-content: space-between;
+#criteria{
+  display: none;
 }
-
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
