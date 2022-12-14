@@ -96,11 +96,12 @@ button[disabled] {
 .float-right {
   float: right;
 }
+/* added criteria and numberLength styling to display bigger and default hidden criterias */
 #criteria{
   display: none;
 }
 #numberLength{
-  width: 40px;
+  width: 75px;
 }
 #password {
   -webkit-appearance: none;
