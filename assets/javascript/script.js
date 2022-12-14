@@ -1,0 +1,3 @@
+generateCriteria = document.getElementById(`generate`)
+
+
