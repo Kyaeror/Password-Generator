@@ -26,12 +26,16 @@
         </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
+          <!-- criterias for the password -->
           <div id="criteria">
-          <p>select length of password 8-128 <input type ="number" min ="8" max = "128" size = "50"></p>
+          <p>select length of password 8-128 <select id ="numberLength"></select></p>
           <p>Lowercase <input type="checkbox"></p>
           <p>Uppercase<input type="checkbox"></p>
           <p>Numeric<input type="checkbox"></p>
           <p>Special Characters<input type="checkbox"></p>
+          <div>
+            <button id="confirm">confirm</button>
+          </div>
         </div>
         </div>
       </div>
