@@ -99,6 +99,9 @@ button[disabled] {
 #criteria{
   display: none;
 }
+#numberLength{
+  width: 40px;
+}
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
